@@ -1,0 +1,47 @@
+# ----------------------------
+# Python / Backend
+# ----------------------------
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environment
+backend/venv/
+backend/.env
+
+# Logs
+*.log
+
+# Backend data (optional, if you don't want to track CSVs)
+backend/*.sqlite3
+
+# VSCode
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# ----------------------------
+# Frontend
+# ----------------------------
+
+# Node / package manager
+frontend/node_modules/
+
+# Build/dist folders
+frontend/dist/
+frontend/build/
+
+# Frontend cache or local files
+frontend/*.local
+frontend/*.cache
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
